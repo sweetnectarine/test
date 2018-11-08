@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : 127.0.0.1
 Source Server Version : 50721
 Source Host           : localhost:3306
-Source Database       : blog
+Source Database       : user
 
 Target Server Type    : MYSQL
 Target Server Version : 50721
@@ -32,4 +32,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'jack', 'e10adc3949ba59abbe56e057f20f883e', '0', '2018-11-08 22:43:41', '2018-11-08 22:43:44');
+INSERT INTO `user` VALUES ('1', 'superadmin', 'e10adc3949ba59abbe56e057f20f883e', '0', '2018-11-08 22:43:41', '2018-11-08 22:43:44');
